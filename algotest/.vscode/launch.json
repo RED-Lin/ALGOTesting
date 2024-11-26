@@ -1,5 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Avex SBDevTest",
+            "type": "al",
+            "request": "launch",
+            "tenant": "252d22b4-8331-4952-a100-9466d0d6834b",
+            "environmentType": "Sandbox",
+            "environmentName": "SBDevTest",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        }
     ]
 }
